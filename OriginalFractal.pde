@@ -15,9 +15,9 @@ public void draw()
   Sun(450,50,75);
   fill(255);
   stroke(200);
-  myFractal(275,75,200);
-  myFractal(150,100,150);
-  myFractal(225,150,100);
+  Cloud(275,75,200);
+  Cloud(150,100,150);
+  Cloud(225,150,100);
   fill(27,120,143);
   stroke(0);
   rect(250,400,500,200);
@@ -30,14 +30,14 @@ public void draw()
   triangle(260,250,260,75,400,250);
 }
 
-public void myFractal (int x, int y, int siz) //Cloud
+public void Cloud (int x, int y, int siz) //Cloud
 {
   ellipse(x,y,siz,siz);
   if (siz > 10)
   {
-    myFractal(x-siz/2,y,siz/2);
-    myFractal(x+siz/2,y,siz/2);
-    myFractal(x,y,siz/2);
+    Cloud(x-siz/2,y,siz/2);
+    Cloud(x+siz/2,y,siz/2);
+    Cloud(x,y,siz/2);
   }
 }
 
@@ -62,7 +62,3 @@ public void Sun (int x, int y, int siz) //Sun
   }  
 }
 
-  //fill(69,197,230);
-  //stroke(48,169,199);
-  //rect(250,250,500,500);
-  //Sky(250,250,500);
