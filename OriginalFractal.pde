@@ -7,9 +7,9 @@ public void setup()
 public void draw()
 {
   background(52,210,235);
-  fill(69,197,230);
-  stroke(48,169,199);
-  rect(250,250,500,500);
+  //fill(69,197,230);
+  //stroke(48,169,199);
+  //rect(250,250,500,500);
   //Sky(250,250,500);
   fill(27,120,143);
   rect(250,400,500,200);
