@@ -6,8 +6,8 @@ public void setup()
 
 public void draw()
 {
-  background(52,210,235);
-  stroke(200);
+  //background(52,210,235);
+  //stroke(200);
   Cloud(275,75,200);
   Cloud(150,100,150);
   Cloud(225,150,100);
