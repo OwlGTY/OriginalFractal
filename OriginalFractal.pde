@@ -6,12 +6,13 @@ public void setup()
 
 public void draw()
 {
-  //background(52,210,235);
-  //stroke(200);
-  Cloud(275,75,200);
-  Cloud(150,100,150);
-  Cloud(225,150,100);
+  background(52,210,235);
+  stroke(200);
+  myFractal(275,75,200);
+  myFractal(150,100,150);
+  myFractal(225,150,100);
   fill(27,120,143);
+  stroke(0);
   rect(250,400,500,200);
   fill(230,205,21);
   stroke(201,155,54);
@@ -26,14 +27,14 @@ public void draw()
   triangle(260,250,260,75,400,250);
 }
 
-public void Cloud (int x, int y, int siz) //Cloud
+public void myFractal (int x, int y, int siz) //Cloud
 {
   circle(x,y,siz);
   if (siz > 10)
   {
-    Cloud(x-siz/2,y,siz/2);
-    Cloud(x+siz/2,y,siz/2);
-    Cloud(x,y,siz/2);
+    myFractal(x-siz/2,y,siz/2);
+    myFractal(x+siz/2,y,siz/2);
+    myFractal(x,y,siz/2);
   }
 }
 
