@@ -7,10 +7,14 @@ public void setup()
 public void draw()
 {
   background(52,210,235);
-  stroke(200);
-  myFractal(275,75,200);
-  myFractal(150,100,150);
-  myFractal(225,150,100);
+  //stroke(200);
+  fill(69,197,230);
+  stroke(48,169,199);
+  //rect(250,250,500,500);
+  Sky(250,250,500);
+  //myFractal(275,75,200);
+  //myFractal(150,100,150);
+  //myFractal(225,150,100);
   fill(27,120,143);
   stroke(0);
   rect(250,400,500,200);
