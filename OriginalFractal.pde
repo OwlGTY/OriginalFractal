@@ -18,9 +18,9 @@ public void draw()
   fill(27,120,143);
   stroke(0);
   rect(250,400,500,200);
-  fill(230,205,21);
-  stroke(201,155,54);
-  circle(450,50,75);
+  //fill(230,205,21);
+  //stroke(201,155,54);
+  //circle(450,50,75);
   //Sun(450,50,75);
   fill(51,37,26);
   stroke(0);
